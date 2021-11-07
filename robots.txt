@@ -1,4 +1,3 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
-Sitemap: https://alisamadian.github.io/sitemap
+Allow:/
+Sitemap: https://alisamadian.github.io/sitemap.xml
