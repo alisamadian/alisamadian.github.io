@@ -85,6 +85,11 @@ img {
 }
 .first-row-left-text-ul {
   list-style-type: none;
+  list-style-image: url(./static/arrow.webp);
+  margin-inline-start: 15px;
+}
+.first-row-left-text-ul li {
+  padding: 10px 0 0 5px;
 }
 
 .first-row-left-social-icons-ul {
