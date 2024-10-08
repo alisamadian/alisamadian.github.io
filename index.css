@@ -1,7 +1,13 @@
+.lora-1 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 /* css reset */
 html {
   box-sizing: border-box;
   font-size: 16px;
+  font-family: Lora;
 }
 
 *,
@@ -119,7 +125,7 @@ img {
 
 .first-row-right {
   width: 30%;
-  min-height: 500px;
+  min-height: 600px;
   padding: 10px;
   display: flex;
   flex-direction: row;
@@ -130,7 +136,7 @@ img {
   width: 250px;
   min-height: 190px;
   border: solid 2px var(--border);
-  box-shadow: 0 0 10px 5px var(--border);
+  box-shadow: 0 0 10px 2px var(--border);
   border-radius: 50%;
 }
 .second-row {
