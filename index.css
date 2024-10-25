@@ -104,10 +104,11 @@ img {
   text-align: left;
   margin: 10px 0 20px 0;
   line-height: 40px;
+  text-shadow: 0 0 1px black;
 }
 .first-row-left-introduction-p {
   padding: 0 0 10px 0;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 25px;
 }
 
@@ -180,16 +181,35 @@ img {
     align-items: center;
   }
   .first-row-left {
-    width: 85%;
+    width: 95%;
     min-height: 100px;
+    padding: 0;
+  }
+  .first-row-left-introduction-p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .first-row-left-text-ul li {
+    padding: 10px 5px 0 0px;
+    font-size: 14px;
+    line-height: 21px;
   }
   .first-row-right {
     width: 90%;
-    min-height: 350px;
+    min-height: 250px;
     padding: 30px 0 0 0;
   }
-  .second-row-right {
-    display: none;
+  .first-row-right-avatar-image {
+    width: 180px;
+    min-height: 120px;
+  }
+  .second-row {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
   }
   .second-row-left {
     width: 85%;
