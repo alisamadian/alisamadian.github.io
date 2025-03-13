@@ -41,15 +41,15 @@ pre {
 }
 
 :root {
-  --black:#0a0a0af3;
+  --black:#181818;
   --white: #ffffff;
   --border: #d3d3d3;
   --backgroundgray: #f0f0f0;
   --line: #9c9c9c;
-  --yellow: #ffffb5;
+  --yellow: #fcfcb5;
   --red: #ffadad;
-  --green: #caffbf;
-  --blue: #9bf6ff;
+  --green: #cefec5;
+  --blue: #a4edf4;
   --purple: #bdb2ff;
 }
 
@@ -115,13 +115,14 @@ pre {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  cursor: pointer;
 }
 .first-row-left-text-ul-topics {
   padding: 4px 6px;
   border: solid 1px var(--border);
   border-radius: 5px;
   background-color: var(--yellow);
+  cursor: pointer;
+  user-select: none;
 }
 
 .first-row-left-text-ul-sub-topics {
@@ -136,8 +137,9 @@ pre {
   display: inline;
   line-height: 40px;
   text-shadow: 0 0 1px black;
-  font-size: 28px;
-  padding: 0px 8px 5px 8px;
+  font-size: 26px;
+  padding: 0px 6px 5px 6px;
+  margin: 0 5px;
   border: solid 1px var(--border);
   border-radius: 5px;
   background-color: var(--green);
@@ -148,13 +150,20 @@ pre {
   font-size: 16px;
   line-height: 25px;
 }
+.second-row-left-contact-text-container {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
 
 .first-row-left-social-icons-ul {
   list-style-type: none;
-  width: 100%;
+  width: 50%;
   min-height: 100px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .first-row-left-social-icons-ul-li {
@@ -181,16 +190,16 @@ pre {
   width: 100%;
   min-height: 100px;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
 }
-.second-row-left {
-  width: 70%;
+.second-row-right {
+  width: 30%;
   min-height: 100px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 .second-row-academic a {
@@ -200,10 +209,23 @@ pre {
   text-decoration: none;
 }
 
-.second-row-right {
-  width: 30%;
+.second-row-left {
+  width: 70%;
   min-height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
+
+/* topics */
+#data-scientist,
+#full-stack,
+#devops,
+#other-skills {
+  padding: 0 0 10px 0;
+}
+
 
 
 @media only screen and (max-width: 900px) {

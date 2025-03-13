@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (document.getElementById("hidden-sections-full-stack").style.display == "none") {
             document.getElementById("hidden-sections-full-stack").style.display = "block";
             document.getElementById("first-row-left-text-ul-topic-indicator-full-stack").innerHTML = ' <i class="fas fa-chevron-down"></i> ';
+
         } else {
             document.getElementById("hidden-sections-full-stack").style.display = "none";
             document.getElementById("first-row-left-text-ul-topic-indicator-full-stack").innerHTML = ' <i class="fas fa-chevron-right"></i> ';
@@ -45,10 +46,13 @@ document.addEventListener("DOMContentLoaded", function () {
         if (document.getElementById("hidden-sections-other-skills").style.display == "none") {
             document.getElementById("hidden-sections-other-skills").style.display = "block";
             document.getElementById("first-row-left-text-ul-topic-indicator-other-skills").innerHTML = ' <i class="fas fa-chevron-down"></i> ';
+
         } else {
             document.getElementById("hidden-sections-other-skills").style.display = "none";
             document.getElementById("first-row-left-text-ul-topic-indicator-other-skills").innerHTML = ' <i class="fas fa-chevron-right"></i> ';
         }
     });
+
+    
 
   });
