@@ -175,7 +175,7 @@ pre {
   min-height: 190px;
   border: solid 2px var(--border);
   box-shadow: 0 0 10px 2px var(--border);
-  border-radius: 50%;
+  border-radius: 10px;
 }
 .second-row {
   width: 100%;
@@ -204,7 +204,6 @@ pre {
   width: 30%;
   min-height: 100px;
 }
-
 
 
 @media only screen and (max-width: 900px) {
