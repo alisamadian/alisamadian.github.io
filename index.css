@@ -151,18 +151,20 @@ pre {
   line-height: 25px;
 }
 .second-row-left-contact-text-container {
-  width: 50%;
+  width: 100%;
+  padding: 5px 10px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .first-row-left-social-icons-ul {
   list-style-type: none;
-  width: 50%;
-  min-height: 100px;
+  width: 100%;
+  min-height: 10px;
   display: flex;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: center;
 }
@@ -196,7 +198,7 @@ pre {
 }
 .second-row-right {
   width: 30%;
-  min-height: 100px;
+  min-height: 40px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -211,11 +213,11 @@ pre {
 
 .second-row-left {
   width: 70%;
-  min-height: 100px;
+  min-height: 40px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 /* topics */
@@ -247,12 +249,12 @@ pre {
   }
   .first-row-left-introduction-p {
     font-size: 14px;
-    line-height: 21px;
+    line-height: 23px;
   }
   .first-row-left-text-ul li {
     padding: 10px 5px 0 0px;
     font-size: 14px;
-    line-height: 21px;
+    line-height: 23px;
   }
   .first-row-right {
     width: 90%;
@@ -273,12 +275,20 @@ pre {
   }
   .second-row-left {
     width: 85%;
-    min-height: 180px;
+    min-height: 40px;
+  }
+  .second-row-left-contact-text-container {
+    justify-content: center;
+    text-align: center;
+  }
+  .first-row-left-social-icons-ul {
+    justify-content: center
   }
 
   .line {
     display: none;
   }
+  
 }
 
 /* academic --------------------------------------------------- */
