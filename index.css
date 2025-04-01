@@ -154,11 +154,12 @@ pre {
 }
 .second-row-left-contact-text-container {
   width: 100%;
-  padding: 5px 10px;
+  padding: 10px 10px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  line-height: 25px;
 }
 
 .first-row-left-social-icons-ul {
@@ -171,7 +172,8 @@ pre {
   align-items: center;
 }
 .first-row-left-social-icons-ul-li {
-  padding: 10px;
+  padding: 20px 12px;
+  font-size: 20px;
 }
 
 .first-row-right {
