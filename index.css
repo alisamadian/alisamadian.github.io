@@ -46,9 +46,9 @@ pre {
   --border: #d3d3d3;
   --backgroundgray: #f0f0f0;
   --line: #9c9c9c;
-  --yellow: #fcfcb5;
+  --yellow: #d1d1d1;
   --red: #ffadad;
-  --green: #cefec5;
+  --green: #e3e3e3;
   --blue: #a4edf4;
   --purple: #bdb2ff;
 }
@@ -126,8 +126,11 @@ pre {
   border-radius: 5px;
   font-size: 17px;
   background-color: var(--yellow);
-  cursor: pointer;
+  cursor: grab;
   user-select: none;
+}
+.first-row-left-text-ul-topic-indicator {
+  cursor: grab;
 }
 
 .first-row-left-text-ul-sub-topics {
@@ -136,6 +139,7 @@ pre {
   border-radius: 5px;
   background-color: var(--green);
 }
+
 
 .first-row-left-h1 {
   text-align: left;
